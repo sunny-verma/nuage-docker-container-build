@@ -10,9 +10,6 @@ LABEL architecture="x86_64"
 
 USER root
 
-RUN yum-config-manager --disable \* > disable
-RUN rm -f disable
-
 RUN touch /etc/yum.repos.d/nuage.repo
 RUN echo "[Nuage]" >> /etc/yum.repos.d/nuage.repo
 RUN echo "name = nauge" >> /etc/yum.repos.d/nuage.repo
