@@ -1,0 +1,5 @@
+[Nuage]
+name = nuage
+baseurl = http://nuage-osp-test.s3-website-us-east-1.amazonaws.com/5.3.1-beta/pike/
+enabled = 1
+gpgcheck = 0
